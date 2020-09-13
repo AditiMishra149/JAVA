@@ -1,0 +1,22 @@
+/*
+Created by Intellij IDEA
+    User:hp (AditiMishra149)
+    Date:13-09-2020
+    Time:09:16 PM
+*/
+import java.util.Scanner;
+public class EvenOdd {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter Any Number5");
+        int n=sc.nextInt();
+        if(n%2!=0)
+        {
+            System.out.println("Odd Number");
+        }
+        else
+        {
+            System.out.println("Even Number");
+        }
+    }
+}
